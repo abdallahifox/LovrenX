@@ -1,0 +1,847 @@
+/*  
+--------------------------------------------------------------
+*  Theme Name: LovrenX - Responsive Bootstrap 4 Landing Template *
+*  Author: AbdallahMo                                            *
+*  Version: 1.0.0                                                *
+*  Created: October 2018                                         *
+*  File Description: Main css file of the template               *
+--------------------------------------------------------------
+*/
+
+
+/***************
+1.BASIC
+2.HELPER
+3.NAVBAR
+4.SLIDER
+5.ABOUT ME
+6.SERVICES
+7.COUNTER
+8.EDU & EXP
+9.PORTFOLIO
+10.TESTIMONIAL
+11.DYNAMIC TABS
+12.CTA
+13.ClIENT'S
+14.BLOG
+15.Contact Us
+16.RESPONSIVE
+17.SUBSCRIBE
+*****************/
+
+
+
+/* Start Main Rulez */
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 25px;
+}
+
+/* End main Rulez */ 
+
+
+/* Start Helper */ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1.font,
+h2.font,
+h3.font,
+h4.font,
+h5.font,
+h6.font,
+span.font,
+p.font {
+    font-weight: 600 !important;
+}
+
+a,
+a:hover,
+a:focus,
+button {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.custom_btn {
+
+	border: 1px solid #ff7675;
+    color: #fff;
+    background-color: #ff7675;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.custom_btn:hover  {
+
+    background-color: #d63031;
+
+}
+
+/* End Helper */ 
+
+
+/* Start Bootstrap Navbar Edit */
+
+.navbar  {
+	transition: 1.5s ease;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+	color: #ff7675 !important;
+}
+	
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	padding: 15px;
+	font-size: 13px;
+	transition: .5s ease;
+}
+
+.navbar-light .container .navbar-nav .nav-link:hover {
+ color: #ff7675 !important;
+}
+
+
+.navbar-light .navbar-toggler {
+
+	border: 1px solid #fff;
+    line-height: 33px;
+}
+
+.navbar-light .navbar-toggler-icon {
+
+	background-image: none
+}
+
+.navbar-light .navbar-toggler-icon i {
+
+	color: #fff;
+}
+
+
+/* End Boostrap Navbar */
+
+/* Start Slider */ 
+
+.slider {
+	background-image: url('https://via.placeholder.com/1280x853');
+	position: relative;
+}
+
+.slider .overlay {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0 , 0, 0, 0.5);
+}
+
+.slider .intro {
+
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.slider .intro > span {
+
+	background-color: #ff7675;
+	padding: 6px 21px; 
+	color: #fff;
+	border-radius: 30px;
+
+}
+
+.slider .intro .button a {
+
+	background-color: transparent;
+	color: #fff;
+	transition: .5s all ease;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	transition: 1s ease ;
+}
+
+.slider .intro .button a:hover {
+
+	background-color: #fff;
+	color: #000;
+
+}
+
+/* End Slider */ 
+
+/* Start About Me */ 
+
+.about-me {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+.about-me .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+}
+
+.about-me .container .info h3 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.about-me .container .content .about-contact .social-item i {
+
+	color:#5B6269;
+	padding: 10px 5px;
+}
+
+.about-me .container .content .about-contact .custom_btn  {
+
+    border: 1px solid #ff7675;
+    color: #fff;
+    background-color: #ff7675;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.about-me .container .content .about-contact .custom_btn:hover  {
+
+    background-color: #d63031;
+
+}
+
+
+/* End About Me */ 
+
+
+/* Start Services */
+
+.services {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+
+.services .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+}
+
+.services .container .info h3 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.services .container .content .box {
+	border-radius: 8px;
+}
+
+.services .container .content .box .icon {
+    height: 80px;
+    color: #ff7675;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    line-height: 86px;
+    border-radius: 50px;
+    border: 2px solid #ff7675;
+}
+
+.services .container .content .box a {
+    color: #000;
+    outline: none !important;
+    transition: all 0.5s;
+}
+
+.services .container .content .box a:hover {
+    color: #ff7675;
+
+}
+/* End Services */
+
+/* Start Counter */ 
+
+.counter {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url('https://via.placeholder.com/1280x874');
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.counter .overlay {
+
+    background-color: rgba(5, 5, 6, 0.84);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.counter .container .counter_box p {
+
+	font-size: 13px;
+    color: #ededed;
+}
+
+/* End Counter */
+
+/* Start Education & Experiance */
+
+.edu {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+
+}
+
+.edu .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+
+}
+
+
+.edu .container .info h3 {
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.edu .container .content .edu_content {
+
+    border-radius: 7px;
+    border: 1px solid #e7e7e7;
+    padding: 50px;
+
+}
+
+.edu .container .content .edu_content h5 {
+
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+
+}
+
+.edu .container .content .box_one {
+
+	background-color: #0DCAFE
+}
+
+.edu .container .content .box_two {
+
+	background-color: #AB2CF0
+}
+
+.edu .container .content .box_three {
+
+	background-color: #E70E6D
+}
+
+.edu .container .content .box_four {
+
+	background-color: #886AEA
+}
+
+
+
+/* End Education & Experiance */
+
+
+/* Start CTA */ 
+
+.cta {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url('https://via.placeholder.com/1280x718');
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.cta .overlay {
+
+    background-color: rgba(5, 5, 6, 0.84);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.cta .container .cta_box p {
+
+	font-size: 15px;
+}
+
+.cta .container .cta_box .btn_hire {
+
+	border: 2px solid #f5f5f5;
+    color: #ffffff;	
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    transition: 1s ease; 
+    outline: none !important;  
+}
+
+.cta .container .cta_box .btn_hire:hover {
+
+	background-color: #fff;
+	color: #000;
+
+}
+
+/* End CTA */
+
+
+/* Start Portfolio */ 
+
+.portfolio {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+
+.portfolio .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+
+}
+
+
+.portfolio .container .info h3 {
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* Dynamic Tabs */
+
+.portfolio .container .content .work-menu a.active {
+
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #ff7675;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
+
+.portfolio .container .content .work-menu li:after {
+
+    content: "/";
+    color: #ff7675;
+    margin: 0px 16px;
+    position: relative;
+    display: inline-block;
+    top: 1px;
+
+}
+
+.portfolio .container .content .work-menu li a {
+
+    padding: 8px 16px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 14px;
+    transition: all 0.5s;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5) !important;
+    margin-top: 5px;
+
+}
+
+.portfolio .container .content-list .content-work img {
+
+	width: 100%;
+	
+}
+
+/* End Dynamic Tabs */
+
+
+/* End Portfolio */
+
+/* Start Client's */
+
+
+.clients {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url('https://via.placeholder.com/1280x853');
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.clients .overlay {
+
+    background-color: rgba(5, 5, 6, 0.84);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Start Carousel Bootstrap Edit */
+
+.clients .container .carousel-box .carousel-indicators {
+
+     position: static;
+    /* right: 0; */
+    /* bottom: 10px; */
+    /* left: 0; */
+    /* z-index: 15; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    margin-top: 23px;
+
+}
+
+.clients .container .carousel-box .carousel-indicators  li {
+
+	width: 15px;
+	height: 7px;
+
+}
+
+.clients .container .carousel-box .carousel-inner .content-box p {
+
+
+	color: #fff
+
+}
+
+.clients .container .carousel-box .carousel-inner .content-box .client-review-box img {
+
+
+	border-radius: 50%
+
+}
+
+/* End Carousel Bootstrap Edit */
+
+
+.clients .container .image-box img {
+
+	opacity: .5
+}
+
+.clients .container .image-box img:hover {
+
+	opacity: 1
+}
+/* End Client's */
+
+/* Start Our Blog */
+
+
+.blog {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+	background-color: #F8F9FA
+
+}
+
+
+.blog .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+
+}
+
+
+.blog .container .info h3 {
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.blog .container .content .blog-box .img-box img {
+
+	width: 100%
+}
+
+.blog .container .content .blog-box .intro-box .blog-header {
+
+	display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 24px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ff7675;
+}
+
+	
+/* End Our Blog */
+
+/* Start Subscribe */
+
+.subscribe {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+
+}
+
+
+.subscribe .container .info p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+
+}
+
+
+.subscribe .container .info h3 {
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.subscribe .container .content .subscribe-box {
+
+	max-width: 550px;
+}
+
+.subscribe .container .content .subscribe-box form input {
+
+	padding: 15px 20px;
+    width: 100%;
+    font-size: 17px;
+    color: #4c5667 !important;
+    border: none;
+    outline: none !important;
+    padding-right: 150px;
+    padding-left: 30px;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+}
+
+.subscribe .container .content .subscribe-box form button {
+
+	position: absolute;
+    top: 4px;
+    right: 5px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 9px 30px;
+}
+
+
+
+/* End Subscribe */
+
+/* Start Footer */ 
+	
+.contact {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #F8F9FA;
+	position: relative;
+
+}
+
+
+.contact .container .section-title p {
+
+    font-size: 62px;
+    position: relative;
+    color: rgba(160, 160, 160, 0.14);
+
+}
+
+
+.contact .container .section-title h3 {
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.contact .container .content .custom_btn {
+
+	border: 1px solid #ff7675;
+    color: #fff;
+    background-color: #ff7675;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+    cursor: pointer;
+}
+
+
+
+.contact .container .content .custom_btn:hover  {
+
+    background-color: #d63031;
+
+}
+
+
+.contact .container .social-icons .social-items ul li a{
+
+	font-size: 24px;
+    color: #b1b1b1;
+    padding-right: 30px;
+}
+
+
+
+/* End Footer */
+
+
+/* Responsive */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 20px;
+        background: #343a40!important;
+    }
+    .navbar .nav-item {
+        margin-left: 0;
+        
+    }
+    .navbar .nav-item .nav-link {
+        padding: 0;
+        margin: 25px 0  0;
+    }
+    .about-me .container .content .query {
+
+        margin-top: 12px;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 20px;
+        background: #343a40 !important;
+    }
+    .navbar .nav-item {
+        margin-left: 0;
+        
+    }
+    .navbar .nav-item .nav-link {
+        padding: 0;
+        margin: 25px 0  0;
+    }
+    .about-me .container .content .query {
+
+        margin-top: 12px;
+        text-align: center;
+    }    
+
+}   
+/* End Responsive */
